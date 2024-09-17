@@ -11,3 +11,5 @@ In order to re-create the model the notebook can also be run on *Kaggle* with **
 ### Web Application
 The created model is deployed using the *HuggingFace API*. The interface is constructed using *Gradio*. A notebook explaining how the model has been deployed is included in the repository.<br><br>
 Link to the web application: <u>https://huggingface.co/spaces/webjar/car_design</u>
+<br>
+Link to the notebook explaining model deployment: <u>https://github.com/bhavay1998/car_design/blob/main/Creating_web_app_gradio.ipynb</u>
