@@ -8,7 +8,7 @@ The aim of the project is to use CNN based resnet18 model for image classificati
 The dataset for the purpose of training the model is created using *duckduckgo* image search API. Each category of car design rougly includes 200 images. For model training, 20% of the data is kept as validation set.
 
 ### Model File
-In order to re-create the model the notebook can also be run on *Kaggle* with **GPU acceleration enabled**. After all cells in the notebook are executed, the model is exported as an outpul file named *bd_design.pkl*. This file can be imported back in a new environment/notebook to perform image classification tasks.
+In order to re-create the model the notebook can also be run on *Kaggle* or *Google Colab* with **GPU acceleration enabled**. After all cells in the notebook are executed, the model is exported as an outpul file named *bd_design.pkl*. This file can be imported back in a new environment/notebook to perform image classification tasks.
 
 ### Web Application
 The created model is deployed using the *HuggingFace API*. The interface is constructed using *Gradio*. A notebook explaining how the model has been deployed is included in the repository.<br><br>
