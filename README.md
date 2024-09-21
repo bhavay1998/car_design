@@ -1,6 +1,6 @@
 # Image Classification in Computer Vision
-The main library used to create the notebook: **fast.ai** 
-
+ ![rsz_bmw_conv](https://github.com/user-attachments/assets/d568107a-c31c-4cd4-b428-acb33f21495d)
+ 
 ### Objective
 The aim of the project is to use CNN based resnet18 model for image classification (4 design categories). The project is carried out using transfer learning to differentiate between four car body designs: Van, Hatchback, Convertible and Pickup Truck. The model is deployed as a web application where users can insert any vehicle's image and the model will classify its body design out of the 4 categories. An overview of the most common body designs can be found here: https://www.motorist.sg/article/722/the-different-types-of-car-body-styles-explained/
 
@@ -14,3 +14,8 @@ In order to re-create the model the notebook can also be run on *Kaggle* with **
 The created model is deployed using the *HuggingFace API*. The interface is constructed using *Gradio*. A notebook explaining how the model has been deployed is included in the repository.<br><br>
 - Link to the web application: <u>https://huggingface.co/spaces/webjar/car_design</u>
 - Link to the notebook explaining model deployment: <u>https://github.com/bhavay1998/car_design/blob/main/Creating_web_app_gradio.ipynb</u>
+
+### Python Libraries
+- fast.ai
+- PIL
+- IPyWidgets
