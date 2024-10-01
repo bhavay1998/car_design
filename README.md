@@ -1,5 +1,7 @@
 # Image Classification in Computer Vision
  ![rsz_bmw_conv](https://github.com/user-attachments/assets/d568107a-c31c-4cd4-b428-acb33f21495d)
+
+ Link to the web application: <u>https://huggingface.co/spaces/webjar/car_design</u>
  
 ### Objective
 The aim of the project is to use CNN based resnet18 model for image classification (4 design categories). The project is carried out using transfer learning to differentiate between four car body designs: Van, Hatchback, Convertible and Pickup Truck. The model is deployed as a web application where users can insert any vehicle's image and the model will classify its body design out of the 4 categories. An overview of the most common body designs can be found here: https://www.motorist.sg/article/722/the-different-types-of-car-body-styles-explained/
@@ -19,3 +21,4 @@ The created model is deployed using the *HuggingFace API*. The interface is cons
 - fast.ai
 - PIL
 - IPyWidgets
+- gradio
